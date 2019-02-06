@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/oswaldregular</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="blackNWhite" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <style name="blackNWhite.Toolbar" parent="blackNWhite">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/oswaldregular</item>
+        <item name="android:text">#ffffff</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+</resources>

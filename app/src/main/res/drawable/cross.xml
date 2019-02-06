@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/cross_1"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_2"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_3"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_4"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_5"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_6"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_7"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_8"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_9"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_10"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_11"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_12"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_13"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_14"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_15"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_16"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_17"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_18"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_19"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_20"
+        android:duration="25" />
+    <item
+        android:drawable="@drawable/cross_21"
+        android:duration="25" />
+</animation-list>

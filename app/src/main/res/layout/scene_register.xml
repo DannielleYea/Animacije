@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/formHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/item_holder"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/usernameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username" />
+
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:labelFor="@+id/usernameLabel" />
+
+        <TextView
+            android:id="@+id/emailLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/emailInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/emailLabel" />
+
+        <TextView
+            android:id="@+id/passwordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:labelFor="@+id/passwordLabel" />
+
+        <TextView
+            android:id="@+id/repeatedPasswordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/repeatedPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:labelFor="@+id/repeatedPasswordLabel" />
+
+        <Button
+            android:id="@+id/buttonCompleteAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:text="Register" />
+
+    </LinearLayout>
+
+</FrameLayout>

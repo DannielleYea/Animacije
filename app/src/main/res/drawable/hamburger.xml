@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <group >
+        <path
+            android:name="hampurger_path"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="3"
+            android:pathData="M30 40,L70 40,M30 50,L70 50,M30 60,L70 60" />
+    </group>
+
+</vector>

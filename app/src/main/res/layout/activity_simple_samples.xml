@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimpleSamplesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp" />
+
+        <ImageView
+            android:id="@+id/animatedHamburger"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/hamburger_animated_vector"
+            android:tint="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/firstChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:background="@color/colorAccent"
+                android:text="Male" />
+
+            <Button
+                android:id="@+id/secondChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:background="@color/colorAccent"
+                android:text="Female" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/slideMultiple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="OFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <CheckBox
+                android:id="@+id/checkboxVisibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:background="#000000"
+                android:checked="true" />
+
+            <Button
+                android:id="@+id/buttonVisibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:text="Registriraj se" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/loadingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:text="Loading" />
+
+            <ch.nth.test.animations.LoadingView
+                android:id="@+id/loadingIndicator"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageView
+                android:id="@+id/animatedDrawable"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/circle" />
+
+            <ch.nth.test.animations.Ring
+                android:id="@+id/ring"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/rotateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:text="Like 👍" />
+
+            <Button
+                android:id="@+id/rotateYButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:text="Like 👍" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
